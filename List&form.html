@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head><title>list</title></head>
+    <body>
+        <h1 class="head1">List of Persons</h1>
+        
+        <div class="div1">
+           
+           
+            <table class="table">
+                <tr class="tr1">
+                    <td>Name</td>
+                    <td>Gender</td>
+                    <td>Age</td>
+                    <td>City</td>
+                    <td>Action</td>
+                </tr>
+
+                <tr class="tr2">
+                    <td>Shahzad</td>
+                    <td>Male</td>
+                    <td>30</td>
+                    <td>Lahore</td>
+                    <td>Update/Remove</td>
+                </tr>
+
+                <tr class="tr3">
+                    <td>danial</td>
+                    <td>Male</td>
+                    <td>34</td>
+                    <td>Islamabad</td>
+                    <td>Update/Remove</td>
+                </tr>
+
+                <tr class="tr4">
+                    <td>Sara</td>
+                    <td>Female</td>
+                    <td>34</td>
+                    <td>Karachi</td>
+                    <td>Update/Remove</td>
+                </tr>
+
+                <tr class="tr5">
+                    <td>Tahir</td>
+                    <td>Male</td>
+                    <td>38</td>
+                    <td>lahore</td>
+                    <td>Update/Remove</td>
+                </tr>
+            </table>
+                  
+            
+
+
+        <div class="div2">
+            <h1 class="head2">Add/Update Person Form</h1>
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Tahir"><br><br>
+                <label>Gender:</label>
+                <input type="radio" name="rad"><label>Male</label><input type="radio" name="rad"><label>Female</label><br><br>
+                <label>Age:</label>
+                <input type="text" placeholder="38"><br><br>
+                <label>City</label>
+                <select>
+                    <option value="">Lahore</option>
+                </select><br><br>
+                <button>reset</button>
+                <button>add</button>
+                <button>update</button>
+
+            </form>
+        </div>
+
+
+
+        </div>
+
+        <style>
+       
+           body{
+
+            justify-content: center;
+           }
+           .head1{
+            padding-left: 100px;
+           }
+           .div1{
+            display: flex;
+            margin: 50px;
+            align-items: center;
+            /* background-color: brown; */
+           }
+           .div2{
+            margin: 50px;
+           }
+
+           .table{
+            border-collapse: collapse;
+            border: 2px;
+            border-style:groove;
+            border-color: black;
+            width: 700px;
+            height: 250px;
+           }
+
+           .tr1{
+            background-color: grey;
+           }
+           .tr2{
+            background-color: aliceblue;
+           }
+           .tr3{
+            background-color:rgb(195, 191, 191);
+           }
+           .tr4{
+            background-color: aliceblue;
+
+           }
+           .tr5{
+            background-color:rgb(195, 191, 191);
+
+           }
+
+           form{
+            height: 180px;
+            border: 2px;
+            border-style:groove;
+            border-color: black;
+            padding: 20px;
+            /* align-items: center; */
+           }
+        </style>
+    </body>
+</html>
